@@ -1,115 +1,48 @@
-<!DOCTYPE html>
 <html>
 <head>
-	<title>Le VerDum</title>
+<title>Javascript Login Form Validation</title>
+<!-- Include CSS File Here -->
+
+<!-- Include JS File Here -->
+<script src="login.js"></script>
 </head>
 <body>
-<!-- haeder -->
-<h1 class="titre">Le VerDum</h1>
-<h1 class="question">Si tu cherches une info<br>On a ce qu'il te faut</h1>
-
 <center>
-<div name="header" class="header">
+<br><br><br><br><br><br><br><br><br><br>
+<div class="container">
+<div class="main">
+
+<form id="form_id" method="post" name="myform">
+<input type="text" name="username" id="username" placeholder="username" />
+<br>
+<input type="password" name="password" id="password" placeholder="password" />
+<br>
+<input type="button" value="Login" id="submit" onclick="validate()"/>
+</form>
 
 </div>
+</div>
 </center>
-<!-- Centre -->
-<a href="article1.html"><h2>Article 1</h2><a>
-<a href="article2.html"><h2>Plus de connexion à l’hôpital de Narbonne…</h2><a>
-<a href="article3.html"><h2>Starship la fusée de SpaceX qui ira un jour sur mars</h2><a>
-<a href="article4.html"><h2>Article 4</h2><a>
-<center>
-<br><br><br><br>
+</body>
 
-
-<!-- Fin du centre -->
-
-<!-- Footer -->
-
-
-
-
-<!-- Style Css -->
-<style>
-
+<style type="text/css">
 body{
      
      background-color: #898989;
 }
 
-a{
-	
-	text-decoration: none;
-}
-
-h2{
-	color: white;
-	font-family: Candara;
-	text-align: center;
+input{
+	border-color: #14B6FF;
+	border-style: solid;
+	border-radius: 5px;
+	border-style: solid;
+	font-size: 30px;
 
 }
-
-h2:hover{
-	transition: 0.3s;
-	color: white;
-	font-family: Candara;
-	font-size: 40px;
-	text-align: center;
-}
-
-div.header{
-	width: 1140px;
-	height: 5px;
-
-}
-
-div.header:hover{
-	transition: 0.4s;
-	width: 1140px;
-	height: 5px;
-
-
-}
-
-h1.question{
-	font-family: Candara;
-	color: #FECF00;
-	text-align: center;
-	border: 3px solid #FECF00; padding: 5px;
-	opacity: 80%;
-
-}
-
-h1.question:hover{
-	transition: 1.5s;
-	font-family: Candara;
-	
-	text-align: center;
-	opacity: 100%;
-}
-
-h1.titre:hover{
-	transition: 0.4s;
-	color: #FEE600;
-	font-size: 55px;
-	text-align: center;
-	font-family:helvetica;
-}
-
-h1.titre{
-	color: #FECF00;
-	font-size: 50px;
-	text-align: center;
-	font-family:helvetica;
-}
-
-
 
 
 
 </style>
 
-<!-- Fin du Style Css -->
 
-</body>
 </html>
